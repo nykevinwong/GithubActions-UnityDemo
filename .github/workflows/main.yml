@@ -10,7 +10,7 @@ jobs:
             fail-fast: false
             matrix:
                 targetPlatform:
-                    - StandaloneWindows64 # Build a Windows 64-bit standalone.
+                    - WebGL # Build a HTML5 WebGL app.
         steps:
             - uses: actions/checkout@v2
               with:
